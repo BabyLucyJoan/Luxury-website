@@ -245,7 +245,7 @@ footer {
   position: relative;
   color: white;
   text-align: center;
-  height: 200px;
+  padding: 20px 0;
   margin-top: 100px;
 }
 footer::before {
@@ -266,4 +266,84 @@ footer::before {
   display: flex;
   color: white;
   justify-content: space-between;
+}
+.info-logo {
+  margin-bottom: 20px;
+}
+.info {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+footer .container ul li {
+  color: #f7f7f7;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 0;
+}
+footer .container li a img {
+  padding: 0 10px;
+  vertical-align: middle;
+}
+footer .container form label {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 10px;
+  display: block;
+}
+form div {
+  display: flex;
+  justify-content: center;
+}
+footer .container form span {
+  /* padding-left: 0.8em; */
+  cursor: pointer;
+  padding: 10px;
+  color: #14274a;
+  background-color: #e0b973;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  color: #14274a;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  /* margin-right: 5px; */
+}
+
+footer .container form input {
+  background-color: #14274a;
+  color: #fff;
+  padding: 0.8em;
+  width: 80%;
+  border: 1px solid #e0b973;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+footer .container form input::placeholder {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
