@@ -1,5 +1,6 @@
 /* Typography */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @font-face {
   font-family: "Adobe Garamond Pro Regular";
   font-style: normal;
@@ -12,6 +13,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+ul li {
+  list-style: none;
 }
 header {
   height: 100vh;
@@ -120,3 +131,139 @@ header section {
   text-align: center;
 }
 /* ROOMS */
+main {
+  margin: 2em auto;
+  width: 80%;
+}
+.text_head {
+  color: #14274a;
+  text-align: center;
+  margin: 0 auto;
+  width: 85%;
+}
+.text_head h2 {
+  font-family: Adobe Garamond Pro;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+}
+.text_head p {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.outer_box {
+  border: 1px solid #14274a;
+  background: #14274a;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+.image_box img {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.room_text {
+  background-color: #14274a;
+  text-align: center;
+  padding: 5px 0;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.room-details {
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 30px 0;
+  justify-content: space-around;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.box img {
+  height: 51px;
+}
+.box span {
+  color: #14274a;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.price {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: #e0b973;
+  padding: 10px 12px;
+  border-radius: 5px;
+}
+.text_foot {
+  text-align: center;
+  margin-top: 40px;
+}
+.text_foot h2 {
+  font-family: Adobe Garamond Pro;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+  color: #14274a;
+}
+.text_foot p {
+  color: #14274a;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.move {
+  margin: 20px 0;
+}
+
+footer {
+  background-color: #14274a;
+  position: relative;
+  color: white;
+  text-align: center;
+  height: 200px;
+  margin-top: 100px;
+}
+footer::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 90px solid #14274a;
+  top: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.container {
+  margin: 2em auto;
+  width: 80%;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
